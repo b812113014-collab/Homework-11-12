@@ -1,0 +1,10 @@
+public class CH3_P40 {
+    public static void main(String[] args) {
+        String first = "Java";
+        String second = "Homework2";
+        StringBuffer buffer = new StringBuffer(first);
+        buffer.append(" - ");
+        buffer.append(second);
+        System.out.println(buffer.toString());
+    }
+}
