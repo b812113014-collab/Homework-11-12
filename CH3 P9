@@ -1,0 +1,14 @@
+public class CH3_P09 {
+    static class Car {
+        int plate = 2468;
+        double fuel = 32.5;
+        void show() {
+            System.out.println("車號：" + this.plate);
+            System.out.println("油量：" + fuel);
+        }
+    }
+    public static void main(String[] args) {
+        Car car = new Car();
+        car.show();
+    }
+}
