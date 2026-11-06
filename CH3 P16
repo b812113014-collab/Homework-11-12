@@ -1,0 +1,11 @@
+public class CH3_P16 {
+    static class Calculator {
+        int add(int a, int b) {
+            return a + b;
+        }
+    }
+    public static void main(String[] args) {
+        int result = new Calculator().add(18, 24);
+        System.out.println("加總：" + result);
+    }
+}
