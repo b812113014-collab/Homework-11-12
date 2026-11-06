@@ -1,0 +1,12 @@
+import java.util.ArrayList;
+import java.util.Collections;
+public class CH3_P34 {
+    public static void main(String[] args) {
+        ArrayList<Integer> scores = new ArrayList<>();
+        scores.add(82);
+        scores.add(95);
+        scores.add(76);
+        Collections.sort(scores);
+        System.out.println(scores);
+    }
+}
