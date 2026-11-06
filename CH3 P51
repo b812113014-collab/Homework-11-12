@@ -1,0 +1,18 @@
+public class CH3_P51 {
+    static class Car {
+        private int plate;
+        private double fuel;
+        void setCar(int p, double f) { plate = p; fuel = f; }
+        void show() { System.out.println("車號：" + plate + "，油量：" + fuel); }
+    }
+    public static void main(String[] args) {
+        Car[] cars = new Car[3];
+        int[] numbers = {2468, 9753, 1357};
+        double[] fuels = {32.5, 18.0, 42.0};
+        for (int i = 0; i < cars.length; i++) {
+            cars[i] = new Car();
+            cars[i].setCar(numbers[i], fuels[i]);
+            cars[i].show();
+        }
+    }
+}
