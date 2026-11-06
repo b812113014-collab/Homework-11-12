@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class CH2_P12 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("輸入成績：");
+        int score = sc.nextInt();
+        if (score >= 90) {
+            System.out.println("等級A");
+        } else if (score >= 80) {
+            System.out.println("等級B");
+        } else if (score >= 60) {
+            System.out.println("等級C");
+        } else {
+            System.out.println("待加強");
+        }
+    }
+}
