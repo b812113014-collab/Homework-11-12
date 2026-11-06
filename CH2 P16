@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class CH2_P16 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("輸入選項A/B/C：");
+        String input = sc.nextLine().trim().toUpperCase();
+        if (input.isEmpty()) {
+            System.out.println("未輸入選項");
+            return;
+        }
+        char option = input.charAt(0);
+        switch (option) {
+            case 'A': System.out.println("參加程式社"); break;
+            case 'B': System.out.println("參加運動社"); break;
+            case 'C': System.out.println("參加音樂社"); break;
+            default: System.out.println("無效選項");
+        }
+    }
+}
