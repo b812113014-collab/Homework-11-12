@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class CH2_P14 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("選擇飲品(1紅茶 2綠茶 3奶茶)：");
+        int choice = sc.nextInt();
+        switch (choice) {
+            case 1: System.out.println("紅茶30元"); break;
+            case 2: System.out.println("綠茶35元"); break;
+            case 3: System.out.println("奶茶50元"); break;
+            default: System.out.println("沒有此品項");
+        }
+    }
+}
