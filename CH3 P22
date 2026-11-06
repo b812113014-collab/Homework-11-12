@@ -1,0 +1,21 @@
+public class CH3_P22 {
+    static class Car {
+        private int plate;
+        private double fuel;
+        public void setCar(int p, double f) {
+            if (p <= 0 || f < 0 || f > 80) {
+                System.out.println("資料不合法");
+                return;
+            }
+            plate = p;
+            fuel = f;
+        }
+        public void show() { System.out.println(plate + " / " + fuel); }
+    }
+    public static void main(String[] args) {
+        Car car = new Car();
+        car.setCar(2468, -7.0);
+        car.setCar(2468, 32.5);
+        car.show();
+    }
+}
