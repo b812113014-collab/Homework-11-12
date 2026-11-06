@@ -1,0 +1,9 @@
+public class CH2_P26 {
+    public static void main(String[] args) {
+        int count = 3;
+        while (count <= 15) {
+            System.out.println("倍數：" + count);
+            count += 3;
+        }
+    }
+}
