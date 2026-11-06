@@ -1,0 +1,12 @@
+public class CH3_P38 {
+    public static void main(String[] args) {
+        String sentence = "Learning Java at Taipei";
+        char target = 'J';
+        int index = sentence.indexOf(target);
+        if (index >= 0) {
+            System.out.println("找到字元，索引：" + index);
+        } else {
+            System.out.println("找不到字元");
+        }
+    }
+}
