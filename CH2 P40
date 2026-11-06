@@ -1,0 +1,12 @@
+import java.lang.reflect.Array;
+public class CH2_P40 {
+    public static void main(String[] args) {
+        int[] values = (int[]) Array.newInstance(int.class, 4);
+        for (int i = 0; i < values.length; i++) {
+            Array.setInt(values, i, (i + 1) * 7);
+        }
+        for (int x : values) {
+            System.out.println(x);
+        }
+    }
+}
