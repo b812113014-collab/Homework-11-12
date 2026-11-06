@@ -1,0 +1,15 @@
+public class CH3_P31 {
+    static class Counter {
+        static int total = 0;
+        Counter() { total++; }
+        static void showTotal() {
+            System.out.println("建立物件數：" + total);
+        }
+    }
+    public static void main(String[] args) {
+        new Counter();
+        new Counter();
+        new Counter();
+        Counter.showTotal();
+    }
+}
