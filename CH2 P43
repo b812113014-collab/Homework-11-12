@@ -1,0 +1,9 @@
+public class CH2_P43 {
+    public static void main(String[] args) {
+        String[] subjects = {"電子學", "工數", "離散數學", "Java"};
+        System.out.println("修課數量：" + subjects.length);
+        for (String subject : subjects) {
+            System.out.println(subject);
+        }
+    }
+}
