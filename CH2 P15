@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class CH2_P15 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("輸入月份1~3：");
+        int month = sc.nextInt();
+        switch (month) {
+            case 1: System.out.println("一月"); break;
+            case 2: System.out.println("二月"); break;
+            case 3: System.out.println("三月"); break;
+            default: System.out.println("不在範圍內");
+        }
+    }
+}
