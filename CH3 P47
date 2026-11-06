@@ -1,0 +1,12 @@
+public class CH3_P47 {
+    static class Printer {
+        void printMessage(String message) {
+            System.out.println("收到文字：" + message);
+        }
+    }
+    public static void main(String[] args) {
+        String message = "Java課堂實作";
+        Printer p = new Printer();
+        p.printMessage(message);
+    }
+}
