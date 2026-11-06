@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class CH2_P10 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("輸入考試成績：");
+        int score = sc.nextInt();
+        if (score >= 60) {
+            System.out.println("及格");
+        } else {
+            System.out.println("未及格");
+        }
+    }
+}
