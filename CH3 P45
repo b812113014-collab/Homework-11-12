@@ -1,0 +1,14 @@
+public class CH3_P45 {
+    static class Car {
+        int plate;
+        Car(int p) { plate = p; }
+    }
+    public static void main(String[] args) {
+        Car car1 = new Car(2468);
+        Car car2 = car1;
+        car1.plate = 9753;
+        System.out.println("car1：" + car1.plate);
+        System.out.println("car2：" + car2.plate);
+        System.out.println("同一物件：" + (car1 == car2));
+    }
+}
