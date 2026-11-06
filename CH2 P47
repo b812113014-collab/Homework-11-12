@@ -1,0 +1,9 @@
+import java.util.Arrays;
+import java.util.Collections;
+public class CH2_P47 {
+    public static void main(String[] args) {
+        Integer[] data = {42, 17, 65, 28, 53};
+        Arrays.sort(data, Collections.reverseOrder());
+        System.out.println("由大到小：" + Arrays.toString(data));
+    }
+}
