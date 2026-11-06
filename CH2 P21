@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class CH2_P21 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("輸入購買數量：");
+        int quantity = sc.nextInt();
+        String result = (quantity >= 3) ? "符合優惠" : "未達優惠門檻";
+        System.out.println(result);
+    }
+}
