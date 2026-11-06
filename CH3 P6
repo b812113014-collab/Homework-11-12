@@ -1,0 +1,13 @@
+public class CH3_P06 {
+    static class Car {
+        int plate;
+        double fuel;
+    }
+    public static void main(String[] args) {
+        Car car = new Car();
+        car.plate = 2468;
+        car.fuel = 32.5;
+        System.out.println("車號：" + car.plate);
+        System.out.println("油量：" + car.fuel);
+    }
+}
