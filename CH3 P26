@@ -1,0 +1,16 @@
+public class CH3_P26 {
+    static class Car {
+        int plate;
+        double fuel;
+        Car() {
+            plate = 2468;
+            fuel = 32.5;
+            System.out.println("執行Car建構式");
+        }
+        void show() { System.out.println(plate + " / " + fuel); }
+    }
+    public static void main(String[] args) {
+        Car car = new Car();
+        car.show();
+    }
+}
