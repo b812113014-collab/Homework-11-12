@@ -1,0 +1,9 @@
+public class CH2_P28 {
+    public static void main(String[] args) {
+        int step = 1;
+        do {
+            System.out.println("第" + step + "次練習");
+            step++;
+        } while (step <= 4);
+    }
+}
