@@ -1,0 +1,8 @@
+public class CH3_P36 {
+    public static void main(String[] args) {
+        String word = "Taipei";
+        System.out.println("字串長度：" + word.length());
+        System.out.println("第一字元：" + word.charAt(0));
+        System.out.println("第二字元：" + word.charAt(1));
+    }
+}
