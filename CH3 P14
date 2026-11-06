@@ -1,0 +1,16 @@
+public class CH3_P14 {
+    static class Car {
+        int plate;
+        double fuel;
+        void setPlate(int value) { plate = value; }
+        void setFuel(double value) { fuel = value; }
+    }
+    public static void main(String[] args) {
+        Car car = new Car();
+        int id = 2468;
+        double liters = 32.5;
+        car.setPlate(id);
+        car.setFuel(liters);
+        System.out.println(car.plate + " / " + car.fuel);
+    }
+}
