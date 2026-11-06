@@ -1,0 +1,13 @@
+public class CH3_P28 {
+    static class Car {
+        int plate;
+        double fuel;
+        Car() { this(1000, 10.0); }
+        Car(int p, double f) { plate = p; fuel = f; }
+        void show() { System.out.println(plate + " / " + fuel); }
+    }
+    public static void main(String[] args) {
+        new Car().show();
+        new Car(2468, 32.5).show();
+    }
+}
