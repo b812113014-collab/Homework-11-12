@@ -1,0 +1,15 @@
+public class CH3_P27 {
+    static class Car {
+        int plate;
+        double fuel;
+        Car() { plate = 1000; fuel = 10.0; }
+        Car(int p, double f) { plate = p; fuel = f; }
+        void show() { System.out.println(plate + " / " + fuel); }
+    }
+    public static void main(String[] args) {
+        Car first = new Car();
+        Car second = new Car(2468, 32.5);
+        first.show();
+        second.show();
+    }
+}
