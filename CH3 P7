@@ -1,0 +1,14 @@
+public class CH3_P07 {
+    static class Car {
+        int plate;
+        double fuel;
+    }
+    public static void main(String[] args) {
+        Car first = new Car();
+        first.plate = 2468; first.fuel = 32.5;
+        Car second = new Car();
+        second.plate = 9753; second.fuel = 18.0;
+        System.out.println("第一台：" + first.plate + " / " + first.fuel);
+        System.out.println("第二台：" + second.plate + " / " + second.fuel);
+    }
+}
