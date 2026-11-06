@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class CH2_P07 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("請輸入座號：");
+        int seat = sc.nextInt();
+        if (seat == 18) {
+            System.out.println("座號18：本週值日生");
+            System.out.println("記得整理教室");
+        }
+        System.out.println("檢查結束");
+    }
+}
