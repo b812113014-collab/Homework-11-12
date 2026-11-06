@@ -1,0 +1,13 @@
+public class CH3_P20 {
+    static class Car {
+        int plate;
+        double fuel;
+        void show() { System.out.println(plate + " / " + fuel); }
+    }
+    public static void main(String[] args) {
+        Car car = new Car();
+        car.plate = 2468;
+        car.fuel = -7.0; // 錯誤的業務資料，但Java仍允許指定
+        car.show();
+    }
+}
