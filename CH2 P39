@@ -1,0 +1,8 @@
+public class CH2_P39 {
+    public static void main(String[] args) {
+        int[] scores = {82, 91, 76, 88, 95};
+        for (int i = 0; i < scores.length; i++) {
+            System.out.println("第" + (i + 1) + "筆：" + scores[i]);
+        }
+    }
+}
